@@ -1,0 +1,31 @@
+.box4:hover{
+    background:
+
+}
+body
+{
+    color:blue;
+}
+#box4 {
+        Display: inline-block;
+        Height: 12px;
+      align:center;
+        Width: 12px;
+        margin-left: 1px;
+        Background:#03506f;
+        Border-radius: 450px;
+    }
+    
+    
+    
+    #loader-2 #box4:nth-child(1) {
+        Animation: scale 1s 0.01s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    @keyframes scale{
+            0%{ transform:scale(0.0);}
+            25%{ transform:scale(0.9,0.9); background#03506f; }
+            50%{ transform:scale(1,1); margin:0 3px; background:#03506f; }
+            100%{ transform:scale(0.0);}
+    }
+
+

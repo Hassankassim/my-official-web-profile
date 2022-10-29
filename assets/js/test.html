@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="background-color: red"
+      onmousemove="mOver(this)"
+      onmouseout="mOut(this)"
+    >
+      move a mouse
+    </div>
+
+    <script>
+      document.write(Date());
+    </script>
+
+    <div
+      style="align-items: center; background-color: #bbbbbb; margin-left: 60%"
+    >
+      <button
+        onclick="document.getElementById('sani').innerHTML=Date()"
+        style="
+          border-radius: 10%;
+          align-items: center;
+          background-color: #bbbbbb;
+        "
+      >
+        check time now
+      </button>
+
+      <p id="sani"></p>
+    </div>
+
+    <script>
+      function myFunction() {
+        var inpObj = document.getElementById("id1");
+        if (!inpObj.checkValidity()) {
+          document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        } else {
+          document.getElementById("demo").innerHTML = "Input OK";
+        }
+      }
+    </script>
+
+    <h1>jvascrpt game</h1>
+
+    <button id="demo" onclick="male()">click me</button>
+    <p id="para"></p>
+
+    <button onclick="document.getAnimations('para').innerHTML=">
+      drag here
+    </button>
+
+    <script>
+      document.getElementById("para").innerHTML = "logggggghhhhhhhhhjkbn";
+
+      function game() {}
+    </script>
+    <p style="color: blue" id="sani1"></p>
+    <script>
+      function male() {
+        if (demo) {
+          document.write("lorem paragraph");
+          prompt("what is your name!");
+          var couplename = prompt("what is her name!");
+          var lovescore = Math.random() * 100;
+          lovescore = Math.floor(lovescore);
+          alert("you loves  " + couplename + "  by  " + lovescore + "%");
+          alert(" It seems you real love that guy don't dumb her");
+        } else {
+          prompt("what is your name!");
+          prompt("what is his name!");
+          var lovescore = Math.random() * 100;
+          lovescore = Math.floor(lovescore);
+          alert("your lovescore is  " + lovescore + "%");
+          alert(" It seems you real love that lovely guy don't dumb him");
+
+          alert("hello");
+        }
+      }
+
+      male(x);
+    </script>
+  </body>
+</html>
